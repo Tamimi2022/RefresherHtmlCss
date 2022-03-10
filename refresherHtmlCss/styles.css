@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
+body {
+  font-family: Lato;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+/* Using Flex Box */
+main {
+  display: flex;
+  align-items: flex-start;
+  font-size: 15px;
+}
+article {
+  border: 2px solid lightgray;
+  border-radius: 8px;
+  margin: 15px;
+  width: 386px;
+  box-shadow: 2px 1px 2px lightgray;
+}
+article > div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 15px;
+}
+.card {
+  padding-top: 15px;
+}
+.card p {
+  margin: 10px 0 0;
+}
+span > p {
+  margin: 15px 0 0;
+  color: rgb(175, 170, 170);
+}
+span > h1 {
+  margin: 0;
+  font-weight: bold;
+}
+img {
+  margin-right: 15px;
+  width: 50px;
+  height: 50px;
+}
+h2 {
+  color: rgb(119, 118, 118);
+  font-size: 18px;
+}
+strong {
+  font-weight: bold;
+  color: rgb(82, 75, 75);
+}
+.card-text {
+  margin-bottom: 20px;
+  height: 80px;
+}
+.click {
+  margin-left: 0;
+  justify-content: center;
+  border-top: 0.5px solid lightgray;
+}
+button {
+  width: 172px;
+  margin: 15px 0;
+  padding: 10px;
+  background-color: white;
+  font-size: 20px;
+}
+.green {
+  color: rgb(41, 190, 41);
+  border-top: 2px solid rgb(41, 190, 41);
+  border-bottom: 2px solid rgb(41, 190, 41);
+  border-left: 2px solid rgb(41, 190, 41);
+  border-right: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.red {
+  color: red;
+  border: 2px solid red;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
